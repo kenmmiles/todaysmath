@@ -7,9 +7,9 @@ const TodayMath: React.FC = () => {
 
     return (
         <div className="container">
-            <h2 className="subtitle">{supremeTitles[day]}</h2>
-            <p className="description"><strong>Short Description:</strong> {supremeDescriptions[day]}</p>
-            <p className="explanation"><strong>Explanation:</strong> {supremeExplanations[day]}</p>
+            <h1 className="title">{day}: {supremeTitles[day]}</h1>
+            <p className="description"><strong>{supremeDescriptions[day]}</strong></p>
+            <p className="explanation">{supremeExplanations[day]}</p>
         </div>
     );
 };

@@ -1,0 +1,22 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    color: #00f;
+}
+
+.subtitle {
+    color: #0f0;
+}
+
+.description {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.explanation {
+    color: #00f;
+    font-weight: bold;
+}

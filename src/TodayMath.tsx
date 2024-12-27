@@ -3,7 +3,7 @@ import { supremeTitles, supremeDescriptions, supremeExplanations } from './data'
 
 const TodayMath: React.FC = () => {
     const today = new Date();
-    const day = today.getDate() - 1; // Convert to 0-based index
+    const day = today.getDate(); 
 
     return (
         <div className="container">
